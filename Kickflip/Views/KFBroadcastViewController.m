@@ -31,11 +31,11 @@
 
 - (void) setupShareButton {
     _shareButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    [_shareButton addTarget:self action:@selector(shareButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
-    [_shareButton setTitle:@"Share" forState:UIControlStateNormal];
+    //[_shareButton addTarget:self action:@selector(shareButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+    [_shareButton setTitle:@"Ready!" forState:UIControlStateNormal];
     [_shareButton setTitle:@"Buffering..." forState:UIControlStateDisabled];
     self.shareButton.enabled = NO;
-    self.shareButton.alpha = 0.0f;
+    self.shareButton.alpha = 0.2f;
     self.shareButton.translatesAutoresizingMaskIntoConstraints = NO;
     [self.view addSubview:self.shareButton];
     NSLayoutConstraint *constraint = [self.shareButton autoPinEdgeToSuperviewEdge:ALEdgeTop withInset:10.0f];
