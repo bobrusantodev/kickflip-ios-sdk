@@ -38,7 +38,7 @@
         //RTMP_LogSetLevel(RTMP_LOGALL);
 #else
         av_log_set_level(AV_LOG_QUIET);
-        RTMP_LogSetLevel(RTMP_LOGCRIT);
+        //RTMP_LogSetLevel(RTMP_LOGCRIT);
 #endif
         
         _directoryPath = directoryPath;
