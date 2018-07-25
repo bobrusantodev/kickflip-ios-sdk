@@ -1,10 +1,11 @@
 # Uncomment this line to define a global platform for your project
+
 platform :ios, "8.0"
+
 # use_frameworks! ### Currently there's an error with FFmpeg static libraries
 
 # When making modifications to the SDK, using the line below can be useful
 pod 'Kickflip', :path => '../Kickflip.podspec'
-
 
 # pod 'Kickflip' , '~> 1.3'
 pod 'YapDatabase', '~> 2.6’
