@@ -17,6 +17,7 @@
     OSType _type;
     int64_t _nextChild;
 }
+
 @property OSType type;
 @property int64_t length;
 
